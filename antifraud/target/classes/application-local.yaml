@@ -13,9 +13,12 @@ management:
       exposure:
         include: '*'
 spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: user
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: postgres
     password: password
   liquibase:
     default-schema: anti_fraud

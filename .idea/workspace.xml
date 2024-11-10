@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2555a22-1c1c-42f9-8f06-40202cd9b066" name="Changes" comment="изменил gitignore/ убрал лишние папки">
+      <changelist_data name="MaxZagorskiy" email="mxm.zagorskij@gmail.com" date="1731243411000" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/ApiApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/aspect/AuditAspectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/controller/ControllerAccountTransfersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/controller/ControllerCardTransfersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/controller/ControllerPhoneTransfersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/repository/AccountTransfersRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/repository/CardTransfersRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/repository/PhoneTransfersRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/service/SuspiciousAccountTransfersServiceImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/service/SuspiciousCardTransfersServiceImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/service/SuspiciousPhoneTransfersServiceImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/resources/application-test.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/antifraud/src/test/resources/db/changelog/db.changelog-master-test.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="antifaud_1.0" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="тесты antifraud" />
+        <option name="rewordedMessage" value="изменил gitignore/ убрал лишние папки" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="ef1b0f9e47fdc9f86199e1fd2cffd6d8515daaf6" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2ohEAPk1RfLqnQYhzb4x1lt4J9U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c1542adeb8e9fa9310454a862056a176&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.java in antifraud">
+    <configuration name="AuditAspectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="antifraud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank.antifraud.aspect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bank.antifraud.aspect" />
+      <option name="MAIN_CLASS_NAME" value="com.bank.antifraud.aspect.AuditAspectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuditAspectTest.testAfterResultCreateAdvice_jsonProcessingException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="antifraud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank.antifraud.aspect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bank.antifraud.aspect" />
+      <option name="MAIN_CLASS_NAME" value="com.bank.antifraud.aspect.AuditAspectTest" />
+      <option name="METHOD_NAME" value="testAfterResultCreateAdvice_jsonProcessingException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuditAspectTest.testGetID_withIdentifiable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="antifraud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank.antifraud.aspect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bank.antifraud.aspect" />
+      <option name="MAIN_CLASS_NAME" value="com.bank.antifraud.aspect.AuditAspectTest" />
+      <option name="METHOD_NAME" value="testGetID_withIdentifiable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in antifraud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="antifraud" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/antifraud/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="repository in antifraud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="antifraud" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/antifraud/src/test/java/com/bank/antifraud/repository" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="account" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bank.account.AccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AntifraudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="antifraud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bank.antifraud.AntifraudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="authorization" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bank.authorization.AuthorizationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaservice.EurekaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="history" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bank.history.HistoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="profile" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bank.profile.ProfileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublicInfoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="public-info" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bank.publicinfo.PublicInfoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransferApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="transfer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bank.transfer.TransferApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in antifraud" />
+        <item itemvalue="JUnit.repository in antifraud" />
+        <item itemvalue="JUnit.AuditAspectTest.testGetID_withIdentifiable" />
+        <item itemvalue="JUnit.AuditAspectTest.testAfterResultCreateAdvice_jsonProcessingException" />
+        <item itemvalue="JUnit.AuditAspectTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2555a22-1c1c-42f9-8f06-40202cd9b066" name="Changes" comment="" />
+      <created>1731313264571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731313264571</updated>
+      <workItem from="1731313265886" duration="841000" />
+      <workItem from="1731314159049" duration="1324000" />
+    </task>
+    <task id="LOCAL-00001" summary="изменил gitignore/ убрал лишние папки">
+      <option name="closed" value="true" />
+      <created>1731314935156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731314935156</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="изменил gitignore/ убрал лишние папки" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменил gitignore/ убрал лишние папки" />
+  </component>
+</project>

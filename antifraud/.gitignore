@@ -1,0 +1,73 @@
+# Общие игнорируемые файлы и папки для Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.iml
+
+# Системные файлы IDE и среды разработки
+.idea/
+*.iws
+*.ipr
+*.iml
+.vscode/
+*.swp
+
+# Настройки OS
+.DS_Store
+Thumbs.db
+
+# Игнорирование целевой директории компиляции и артефактов сборки
+/target/
+/out/
+
+# Сборочные файлы Maven
+.mvn/
+!**/src/main/**/mvnw*
+!**/src/main/**/mvnw.cmd
+*.mvn
+target/
+dependency-reduced-pom.xml
+build/
+
+# Исключение файлов конфигурации
+**/bootstrap.yml
+**/bootstrap-*.yml
+**/bootstrap-*.properties
+
+# Игнорирование файлов тестирования
+test-output/
+surefire-reports/
+jacoco/test.exec
+
+# Инструменты статического анализа
+/checkstyle/
+/findbugs/
+/pmd/
+/spotbugs/
+/reports/
+
+# Игнорирование временных файлов IDE
+.classpath
+.project
+.settings/
+bin/
+tmp/
+!src/**/main/**/
+
+# Файлы отчетов и отладочные файлы
+logs/
+*.log
+*.csv
+*.dat
+*.out
+hs_err_pid*
+
+
+# Игнорирование специфичных для операционной системы файлов
+*~
+
+# Игнорирование файлов тестирования и сборки
+/test/target
+!src/**/test/**
